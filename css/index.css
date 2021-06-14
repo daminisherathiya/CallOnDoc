@@ -1,0 +1,106 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+.header-bg {
+  background-color: #F2F4F9;
+  border-radius: 0 0 24px 24px;
+}
+.horizontal-navbar {
+  white-space: nowrap;
+  overflow: auto;
+}
+.horizontal-navbar a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #444444;
+}
+.horizontal-navbar a.active {
+  color: #2DBDCA;
+  position: relative;
+}
+.horizontal-navbar a.active::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: -6px;
+  background-color: #2DBDCA;
+  border-radius: 10px 10px 0 0;
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.horizontal-navbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.horizontal-navbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.container {
+  padding: 0 15px;
+}
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.space {
+  margin-top: 35px;
+}
+.box {
+  box-shadow: 0px 0px 16px #698DA738;
+  border-radius: 14px;
+  padding: 18px;
+}
+.pricing-btn {
+  color: #FF6600;
+  padding: 0;
+}
+.modal-dialog {
+  margin: .5rem 19px;
+}
+
+/* modal */
+
+.modal-header--bg {
+  background-color: #F5F8F9;
+  border-bottom: none;
+  padding: 22px 16px;
+}
+.modal-title--text {
+  font-weight: 18px;
+  font-weight: 700;
+}
+.modal-content--radius {
+  border-radius: 22px;
+  overflow: hidden;
+}
+.price-list hr {
+  border-bottom: 2px solid #D7E0F7;
+}
+.price-list h6 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.price-list p {
+  font-size: 15px;
+}
+.free {
+  color: #34B872;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.btn-ok {
+  background-color: #FF7500;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px 50px;
+  margin: 0 auto 21px;
+}
