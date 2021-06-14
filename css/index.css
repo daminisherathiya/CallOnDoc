@@ -129,7 +129,7 @@
   border: 1px solid #E1E5F1;
   border-radius: 14px;
   width: 167px;
-  margin: 0 15px;
+  margin-top: 26px !important;
   /* inset: auto auto -47px 0px !important; */
 }
 .popover-body {
