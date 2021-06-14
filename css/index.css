@@ -113,7 +113,11 @@
   border-radius: 50%;
   margin: -.5rem 0 -.5rem auto;
 }
+.modal {
+  z-index: 2000;
+}
 
+/* popover */
 .popover-title {
   font-size: 14px;
   color: #FF6600;
@@ -131,7 +135,6 @@
   border-radius: 14px;
   width: 167px;
   margin: 30px 0 0 0 !important;
-  /* inset: auto auto -47px 0px !important; */
 }
 @media (width: 320px) {
   .popover {
