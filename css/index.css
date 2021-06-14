@@ -129,8 +129,13 @@
   border: 1px solid #E1E5F1;
   border-radius: 14px;
   width: 167px;
-  margin-top: 26px !important;
+  margin: 30px 0 0 0 !important;
   /* inset: auto auto -47px 0px !important; */
+}
+@media (width: 320px) {
+  .popover {
+    width: 137px;
+  }
 }
 .popover-body {
   padding: 12px;
